@@ -3,9 +3,10 @@ function getFormvalue() {
     const firstName = document.forms["form1"]["fname"].value;
     const lastName = document.forms["form1"]["lname"].value;
     
-    // Display the first and last names using an alert
-    alert("First Name: " + firstName + "\nLast Name: " + lastName);
+    // Format the alert message to match the expected format
+    alert(firstName + ' ' + lastName);
 
     // Prevent the form from submitting and refreshing the page
     return false;
 }
+
